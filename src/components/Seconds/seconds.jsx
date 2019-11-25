@@ -5,7 +5,7 @@ import Clock from "react-clock";
 class Seconds extends Component {
   constructor() {
     super();
-    this.state = { time: new Date(), log: " " };
+    this.state = { time: new Date(), log: "" };
   }
 
   fizzBuzz(seconds) {
